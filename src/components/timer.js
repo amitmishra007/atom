@@ -44,14 +44,16 @@ const Timer = () => {
   };
   const startCountDown = useCallback(() => {
     const customDate = new Date();
-    const countDownDate = new Date(
-      customDate.getFullYear(),
-      customDate.getMonth(),
-      customDate.getDate() + 50,
-      customDate.getHours() + 18,
-      customDate.getMinutes() + 25,
-      customDate.getSeconds() + 8
-    );
+    // const countDownDate = new Date(
+    //   customDate.getFullYear(),
+    //   customDate.getMonth(),
+    //   customDate.getDate() + 14,
+    //   customDate.getHours() + 18,
+    //   customDate.getMinutes() + 25,
+    //   customDate.getSeconds() + 8
+    // );
+    const countDownDate = new Date(2025, 0, 8, 12, 0, 0, 0);
+
     setInterval(() => {
       getTimeDifference(countDownDate.getTime());
     }, 1000);

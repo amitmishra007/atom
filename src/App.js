@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="bg-gradient-to-bl from-blue-400 via-blue-200 to-blue-400 w-screen h-screen flex flex-col items-center">
       <img
-        className="sm:w-64 w-32 mx-11 mt-52"
+        className="sm:w-128 w-72 mx-11 mt-52"
         height="auto"
         src="./atom_logo.png"
         alt="atom_logo"
